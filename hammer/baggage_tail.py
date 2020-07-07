@@ -1,0 +1,2 @@
+for i in a:
+    print(f"insert into aux_baggage (carrier, departure_aircode, arrival_aircode, baggage_weight, foreign_currency, foreign_price) values ('UO', '{i[0]}', '{i[1]}', '{i[2]}', '{i[3]}', '{i[4]}');")
